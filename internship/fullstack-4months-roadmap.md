@@ -26,8 +26,8 @@ gantt
 graph LR
     subgraph "Month 1: Foundations"
         A[Linux CLI] --> B[Git]
-        B --> C[Frontend Basics | Mini project -> Job market]
-        C --> D[Backend Basics | Integration -> Job market]
+        B --> C[Frontend Basics / Mini project -> Job market]
+        C --> D[Backend Basics / Integration -> Job market]
     end
 
     subgraph "Month 2: Deepening"
@@ -169,8 +169,8 @@ gantt
 
 ## Project module/sevice for planning purposes
 
-- Notification service -> Sending email/SMS/Zalo when certain actions happen (e.g., application received, gig posted) | separate microservice
+<!--- Notification service -> Sending email/SMS/Zalo when certain actions happen (e.g., application received, gig posted) | separate microservice
 - IOT Module -> Laravel-based service to handle IOT device data and interactions | separate microservice | Owner app
 - Chat system service -> Real-time messaging between users | integrate with main app or separate service
   - AI support -> AI-powered message suggestions and auto-responses | integrate with chat system
-- Translation service -> Handle multi-language support and translations | integrate with main app
+- Translation service -> Handle multi-language support and translations | integrate with main app-->

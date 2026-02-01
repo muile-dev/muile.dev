@@ -20,6 +20,38 @@ gantt
     Month 4 - Scaling & Wrap-Up     :p4, 2026-05-01, 28d
 ```
 
+## Skill Progression
+
+```mermaid
+graph LR
+    subgraph "Month 1: Foundations"
+        A[Linux CLI] --> B[Git]
+        B --> C[Frontend Basics]
+        C --> D[Backend Basics]
+    end
+
+    subgraph "Month 2: Deepening"
+        D --> E[Advanced Frontend]
+        E --> F[API Security]
+        F --> G[Testing]
+        G --> H[Integration]
+    end
+
+    subgraph "Month 3: Building"
+        H --> I[DB Design]
+        I --> J[API Development]
+        J --> K[Security]
+        K --> L[Full Project]
+    end
+
+    subgraph "Month 4: Scaling"
+        L --> M[CI/CD]
+        M --> N[Cloud Deploy]
+        N --> O[Production]
+        O --> P[Junior Engineer]
+    end
+```
+
 ## 4-Month Fullstack Internship Roadmap
 
 ```mermaid
@@ -102,38 +134,6 @@ gantt
     section Week 16
     Final Review & Transition             :w16, after w15, 1w
     Internship completed                  :crit, milestone, 2026-05-28, 0d
-```
-
-## Skill Progression
-
-```mermaid
-graph LR
-    subgraph "Month 1: Foundations"
-        A[Linux CLI] --> B[Git]
-        B --> C[Frontend Basics]
-        C --> D[Backend Basics]
-    end
-
-    subgraph "Month 2: Deepening"
-        D --> E[Advanced Frontend]
-        E --> F[API Security]
-        F --> G[Testing]
-        G --> H[Integration]
-    end
-
-    subgraph "Month 3: Building"
-        H --> I[DB Design]
-        I --> J[API Development]
-        J --> K[Security]
-        K --> L[Full Project]
-    end
-
-    subgraph "Month 4: Scaling"
-        L --> M[CI/CD]
-        M --> N[Cloud Deploy]
-        N --> O[Production]
-        O --> P[Junior Engineer]
-    end
 ```
 
 ## Key Milestones Summary
